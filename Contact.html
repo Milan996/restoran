@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Contact</title>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" type="text/css" href="veza.css">
+		</head>
+		<body>
+			<nav class="navigacioni">
+			<span class="open-slide">
+			  <a href="#" onclick="otvori()">
+				<svg width="30" height="30">
+					<path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+					<path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+					<path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+				</svg>
+			  </a>
+			</span>
+		  </nav>
+
+		  <div id="side-menu" class="side-nav">
+			<a href="#" class="dugme-zatvori" onclick="zatvori()">&times;</a>
+			<a href="projekat.html">Home</a>
+			<a href="Food.html">Food</a>
+			<a href="Food delivery.html">Food Delivery</a>
+			<a href="Contact.html">Contact</a>
+		  </div>
+			
+			<div class="kontakriranje">
+				<p>For more information you can contact us by e-mail , by calling the number or by form!</p>
+			</div>
+			
+			<div class="forme">
+			<form name="obrazac">
+				<p class="kontakt">
+					Fisrtname:
+					<input type="text" id="ime" size="20">
+				</p>
+				
+				<p class="kontakt">	
+					Lastname:
+					<input type="text" id="prezime" size="20">
+				</p>
+				
+				<p class="kontakt">
+					Email:
+					<input type="email" id="mejl" size="20" required>
+				</p>
+				<p class="kontakt">
+				<input type="button" class="dugme" value="Potvrdi" onclick="validacija()">
+				<input type="reset" class="dugme" value="Reset" >
+				</p>
+				<p class="kontakt">
+				Message:
+					 <input type="text" id="field" class ="polje"><br>
+
+				<input type="button" value="Save" id="save" >
+				<input type="button" value="Read" id="read" >
+				<input type="button" value="Clear" id="clear" >
+				<p class="kontakt">
+					Did you like this page?<br>
+					<input type="text" id="nekiTekst">
+					<button onclick="ocenaSajta()">Tell me</button>
+				</p>
+				</form>
+			</div>
+				
+				<p class="footer"> 
+					Email:omnifood@gmail.com<br>
+					Number:069/8284996 , 021-849989<br>
+				</p>
+			
+			<script src="java2.js"></script>
+			<script src="java4.js"></script>
+			<script src="java5.js"></script>
+		</body>
+	</html>	
